@@ -1,0 +1,28 @@
+# Build output
+build/
+.cache/
+
+# CMake / compile database
+compile_commands.json
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+sdkconfig
+
+# ESP-IDF generated files
+sdkconfig.old
+managed_components/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Clang tooling
+.clangd
+
+# Environment files
+.env
+.envrc
+EOF

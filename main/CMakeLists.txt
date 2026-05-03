@@ -1,0 +1,23 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "core.c"
+        "modules/auth/auth.c"
+        "modules/button/button.c"
+        "modules/leds/leds.c"
+        "modules/rfid/rfid.c"
+        "modules/ultrasonic/ultrasonic.c"
+    INCLUDE_DIRS
+        "."
+        "modules/auth"
+        "modules/button"
+        "modules/leds"
+        "modules/rfid"
+        "modules/ultrasonic"
+    REQUIRES
+        nvs_flash
+        esp_driver_gpio
+        esp_driver_spi
+        esp_timer
+        abobija__rc522
+)
