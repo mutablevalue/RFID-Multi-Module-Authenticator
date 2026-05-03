@@ -1,4 +1,4 @@
-# RFID Access Verification System
+# RFID Multi Module Authenticator
 
 This project is an ESP32-based RFID access verification system that uses an ultrasonic sensor, an RC522 RFID reader, a push button, and status LEDs to control a simple verification workflow.
 
